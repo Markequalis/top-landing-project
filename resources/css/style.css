@@ -1,0 +1,180 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+button {
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 8px 24px;
+    color: #e5e7eb;
+    background-color: #3882f6;
+    border-style: none;
+}
+
+.signup:hover {
+    cursor: pointer;
+}
+
+.header, .hero-main, .footer {
+    background-color: #1f2937;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+}
+
+.header .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px; 
+    margin-bottom: 16px;
+}
+
+.header .logo {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.header .links {
+    display: flex;
+    gap: 2em;
+    font-size: 18px;
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar, .content {
+    margin: auto;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.hero-main .content {
+    display: flex;
+    justify-content: center;
+    margin-top: 64px;
+    margin-bottom: 96px;
+}
+
+.hero-main h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin-top: 16px; 
+    margin-bottom: 16px;
+}
+
+.hero-main p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-top: 0; 
+    margin-bottom: 16px;
+    overflow: hidden;
+}
+
+
+.hero-main img {
+    width: 300px;
+    margin-left: 16px;
+}
+
+.info .content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 48px; 
+    margin-bottom: 86px;
+    text-align: center;
+}
+
+.info .info-header {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    margin-bottom: 48px;
+}
+
+.info-images {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.info-images img {
+    width: 150px;
+    height: 150px;
+    border-radius: 16px;
+}
+
+.info-images .img-subtext {
+    width: 150px;
+}
+
+.quote-section .content {
+    margin-top: 96px; 
+    margin-bottom: 96px;
+    max-width: 800px;
+}
+
+.quote-section .quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-section .quote-author {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: right;
+}
+
+.callaction-section .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    background-color: #3882f6;
+    border-radius: 8px;
+    color: #e5e7eb;
+    margin-top: 96px; 
+    margin-bottom: 96px;
+    max-width: 900px;
+}
+
+.callaction-section .callaction {
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.callaction-section button {
+    border: 3px solid #e5e7eb;
+}
+
+.footer .content{
+    text-align: center;
+    color: #e5e7eb;
+    margin-top: 32px; 
+    margin-bottom: 32px;
+}
